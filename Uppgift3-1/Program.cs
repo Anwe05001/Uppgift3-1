@@ -19,7 +19,7 @@ class Program
             Console.WriteLine("Du är tyvärr för ung");
         }
 
-        else if (age !<= 16 && age !>= 19)
+        else if (age !>= 16 && age !<= 19)
         {
             Console.WriteLine("Du får delta");
         } 
